@@ -6,7 +6,8 @@ describe('Quiz Running', () => {
     it('should GET a raondom question on page load and render the question on the page', () => {
         cy.intercept('GET', 'api/random', {
             statusCode: 200,
-        }).as('getRandomQuestion');
+            body: mockState
+        }).as('getRandomQuestions');
 
         cy.visit('/');
     })

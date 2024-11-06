@@ -1,0 +1,262 @@
+[
+    {
+        "_id": "6729322ff49f93315b0cb4a4",
+        "question": "What is the output of print(2 ** 3)?",
+        "answers": [
+            {
+                "text": "6",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4a5"
+            },
+            {
+                "text": "8",
+                "isCorrect": true,
+                "_id": "6729322ff49f93315b0cb4a6"
+            },
+            {
+                "text": "9",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4a7"
+            },
+            {
+                "text": "12",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4a8"
+            }
+        ]
+    },
+    {
+        "_id": "6729322ff49f93315b0cb4db",
+        "question": "What does the range function do?",
+        "answers": [
+            {
+                "text": "Generates a list of numbers",
+                "isCorrect": true,
+                "_id": "6729322ff49f93315b0cb4dc"
+            },
+            {
+                "text": "Creates an iterator that generates a sequence of numbers",
+                "isCorrect": true,
+                "_id": "6729322ff49f93315b0cb4dd"
+            },
+            {
+                "text": "Creates a list of tuples",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4de"
+            },
+            {
+                "text": "Generates random numbers",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4df"
+            }
+        ]
+    },
+    {
+        "_id": "6729322ff49f93315b0cb4bd",
+        "question": "Which method is used to remove whitespace from the beginning and end of a string?",
+        "answers": [
+            {
+                "text": "strip()",
+                "isCorrect": true,
+                "_id": "6729322ff49f93315b0cb4be"
+            },
+            {
+                "text": "trim()",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4bf"
+            },
+            {
+                "text": "clean()",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4c0"
+            },
+            {
+                "text": "remove()",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4c1"
+            }
+        ]
+    },
+    {
+        "_id": "6729322ff49f93315b0cb4ea",
+        "question": "What does the method append() do in a list?",
+        "answers": [
+            {
+                "text": "Adds a new element at the end of the list",
+                "isCorrect": true,
+                "_id": "6729322ff49f93315b0cb4eb"
+            },
+            {
+                "text": "Removes the last element of the list",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4ec"
+            },
+            {
+                "text": "Sorts the list in ascending order",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4ed"
+            },
+            {
+                "text": "Removes all elements from the list",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4ee"
+            }
+        ]
+    },
+    {
+        "_id": "6729322ff49f93315b0cb4ef",
+        "question": "How do you create a tuple in Python?",
+        "answers": [
+            {
+                "text": "[]",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4f0"
+            },
+            {
+                "text": "{}",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4f1"
+            },
+            {
+                "text": "()",
+                "isCorrect": true,
+                "_id": "6729322ff49f93315b0cb4f2"
+            },
+            {
+                "text": "tuple[]",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4f3"
+            }
+        ]
+    },
+    {
+        "_id": "6729322ff49f93315b0cb4e5",
+        "question": "Which of the following can be used to create an empty list in Python?",
+        "answers": [
+            {
+                "text": "[]",
+                "isCorrect": true,
+                "_id": "6729322ff49f93315b0cb4e6"
+            },
+            {
+                "text": "{}",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4e7"
+            },
+            {
+                "text": "()",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4e8"
+            },
+            {
+                "text": "set()",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4e9"
+            }
+        ]
+    },
+    {
+        "_id": "6729322ff49f93315b0cb4f4",
+        "question": "What is the output of print(3 == 3.0)?",
+        "answers": [
+            {
+                "text": "False",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4f5"
+            },
+            {
+                "text": "True",
+                "isCorrect": true,
+                "_id": "6729322ff49f93315b0cb4f6"
+            },
+            {
+                "text": "3",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4f7"
+            },
+            {
+                "text": "3.0",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4f8"
+            }
+        ]
+    },
+    {
+        "_id": "6729322ff49f93315b0cb4e0",
+        "question": "What is the correct syntax to create a dictionary in Python?",
+        "answers": [
+            {
+                "text": "{'name': 'John', 'age': 30}",
+                "isCorrect": true,
+                "_id": "6729322ff49f93315b0cb4e1"
+            },
+            {
+                "text": "<'name': 'John', 'age': 30>",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4e2"
+            },
+            {
+                "text": "['name': 'John', 'age': 30]",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4e3"
+            },
+            {
+                "text": "('name': 'John', 'age': 30)",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4e4"
+            }
+        ]
+    },
+    {
+        "_id": "6729322ff49f93315b0cb4cc",
+        "question": "What is the output of type(3.14)?",
+        "answers": [
+            {
+                "text": "<class 'int'>",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4cd"
+            },
+            {
+                "text": "<class 'float'>",
+                "isCorrect": true,
+                "_id": "6729322ff49f93315b0cb4ce"
+            },
+            {
+                "text": "<class 'complex'>",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4cf"
+            },
+            {
+                "text": "<class 'decimal'>",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4d0"
+            }
+        ]
+    },
+    {
+        "_id": "6729322ff49f93315b0cb4fe",
+        "question": "Which of the following is not a built-in data type in Python?",
+        "answers": [
+            {
+                "text": "list",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb4ff"
+            },
+            {
+                "text": "dict",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb500"
+            },
+            {
+                "text": "tuple",
+                "isCorrect": false,
+                "_id": "6729322ff49f93315b0cb501"
+            },
+            {
+                "text": "array",
+                "isCorrect": true,
+                "_id": "6729322ff49f93315b0cb502"
+            }
+        ]
+    }
+]
