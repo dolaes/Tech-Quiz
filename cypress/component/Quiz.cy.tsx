@@ -1,18 +1,14 @@
-import React from 'react';
 import Quiz from '../../client/src/components/Quiz';
 import { Answer } from '../../client/src/models/Answer';
 import { Question } from '../../client/src/models/Question';
 
 describe('<Quiz />', () => {
     beforeEach(() => {
-        // Load fixture data and intercept API call for each test
         cy.fixture('../fixtures/question.json').then((questions) => {
             cy.intercept('GET', '/api/questions/random', {
                 statusCode: 200,
                 body: questions,
             }).as('getRandomQuestions');
-
-            // Mount the component
             cy.mount(<Quiz />);
         });
     });
